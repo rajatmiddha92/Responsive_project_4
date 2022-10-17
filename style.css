@@ -93,8 +93,8 @@ img {
 }
 
 .inp {
-  position: relative;
   margin-bottom: 1em;
+  position: relative;
 }
 #button {
   position: absolute;
@@ -103,7 +103,8 @@ img {
   background: #e7a09e 0% 0% no-repeat padding-box;
   border-radius: 29px;
   border: 0;
-  left: 65%;
+  right: 9%;
+
   color: white;
 }
 @media only screen and (min-width: 44em) {
@@ -156,6 +157,7 @@ img {
     padding-left: 3em;
     margin-bottom: 3.8em;
   }
+
   #Email {
     margin-left: 4.4em;
     padding-right: 8em;
