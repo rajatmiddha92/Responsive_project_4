@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: transparent
+    linear-gradient(156deg, #fcf3f3 0%, #ffffff 49%, #faf1f0 100%) 0% 0%
+    no-repeat padding-box;
+}
+.logo {
+  width: 29px;
+  height: 29px;
+  border: 2px solid #e7a09e;
+  border-radius: 50%;
+}
+.head-container {
+  margin-top: 1.6em;
+  display: flex;
+  margin-left: 1.7em;
+  margin-bottom: 1.7em;
+}
+.header-2 {
+  margin-left: 0.8em;
+}
+img {
+  width: 100%;
+}
+.font-style-1 {
+  font: normal normal medium Avenir;
+}
+.font-style-2 {
+  font-family: "Open Sans", sans-serif;
+}
+.font-style-3 {
+  font: normal normal Avenir;
+}
+.font-weight-1 {
+  font-weight: 300;
+}
+.font-weight-2 {
+  font-weight: 600;
+}
+.font-xsm {
+  font-size: 0.8em;
+}
+.font-sm {
+  font-size: 0.9em;
+}
+.font-md {
+  font-size: 2.5em;
+}
+.font-color-1 {
+  color: #5f5a5a;
+}
+.font-color-2 {
+  color: #d2a1a2;
+}
+.font-color-3 {
+  color: #393334;
+}
+.font-color-4 {
+  color: #9a6b69;
+}
+.container-3 {
+  text-align: center;
+  margin-top: 1em;
+}
+.letter-space {
+  letter-spacing: 12px;
+}
+.letter-space-2 {
+  letter-spacing: 12.3px;
+}
+.pad-x-1 {
+  padding: 0.1em 1em;
+}
+.m-x-1 {
+  margin-bottom: 0.8em;
+}
+.container-3 > p {
+  margin-left: 2em;
+  margin-right: 2em;
+  line-height: 1.5;
+  padding: 0.5em 0;
+  margin-bottom: 1.5em;
+}
+#Email {
+  border: 1px solid #9a6b69;
+  border-radius: 29px;
+  padding: 1.2em 5.2em;
+}
+
+.inp {
+  position: relative;
+  margin-bottom: 1em;
+}
+#button {
+  position: absolute;
+  width: 95px;
+  height: 50px;
+  background: #e7a09e 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+  border: 0;
+  left: 65%;
+  color: white;
+}
+@media only screen and (min-width: 44em) {
+  .body-container {
+    display: grid;
+    grid-template-columns: 58% 42%;
+    grid-template-rows: auto auto;
+  }
+  .container-1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+  .container-2 {
+    grid-row: 1 / span 2;
+    grid-column: 2 / span 1;
+    background: url("./images/Rectangle\ 41@2x.png") 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+  }
+  .container-3 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+}
